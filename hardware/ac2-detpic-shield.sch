@@ -210,7 +210,7 @@ Text Label 1600 3450 0    50   ~ 0
 RG3
 Text Label 1600 3550 0    50   ~ 0
 RG6
-Text Label 1550 3650 0    50   ~ 0
+Text Label 1500 3650 0    50   ~ 0
 +3.3V
 Text Label 1450 3750 0    50   ~ 0
 +5V_EXT
@@ -264,7 +264,7 @@ Text Label 2750 3450 0    50   ~ 0
 RG2
 Text Label 2700 3550 0    50   ~ 0
 RC13
-Text Label 2700 3650 0    50   ~ 0
+Text Label 2650 3650 0    50   ~ 0
 +3.3V
 Text Label 2600 3750 0    50   ~ 0
 +5V_EXT
@@ -359,16 +359,12 @@ Text Label 650  6300 0    50   ~ 0
 RB2
 Text Label 650  6400 0    50   ~ 0
 RB3
-Text Label 3000 5900 2    50   ~ 0
-+3.3V
 Wire Wire Line
 	2500 7250 2500 7200
 Wire Wire Line
 	2650 7050 3000 7050
 Wire Wire Line
 	2500 6900 2500 6750
-Text Label 2500 6750 0    50   ~ 0
-+3.3V
 Text Label 2850 7050 0    50   ~ 0
 RB4
 Wire Notes Line
@@ -931,4 +927,140 @@ F 3 "~" H 3900 1900 50  0001 C CNN
 	1    3900 1900
 	0    1    1    0   
 $EndComp
+$Comp
+L Memory_EEPROM:25LCxxx U?
+U 1 1 5C985584
+P 4400 4250
+F 0 "U?" H 4600 4650 50  0000 C CNN
+F 1 "25LCxxx" H 4650 4550 50  0000 C CNN
+F 2 "" H 4400 4250 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf" H 4400 4250 50  0001 C CNN
+	1    4400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C98EACC
+P 1750 3650
+F 0 "#PWR?" H 1750 3500 50  0001 C CNN
+F 1 "+3.3V" V 1700 3650 50  0000 L CNN
+F 2 "" H 1750 3650 50  0001 C CNN
+F 3 "" H 1750 3650 50  0001 C CNN
+	1    1750 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C990D4A
+P 2900 3650
+F 0 "#PWR?" H 2900 3500 50  0001 C CNN
+F 1 "+3.3V" V 2850 3650 50  0000 L CNN
+F 2 "" H 2900 3650 50  0001 C CNN
+F 3 "" H 2900 3650 50  0001 C CNN
+	1    2900 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C9974F8
+P 3000 5900
+F 0 "#PWR?" H 3000 5750 50  0001 C CNN
+F 1 "+3.3V" V 2950 5900 50  0000 L CNN
+F 2 "" H 3000 5900 50  0001 C CNN
+F 3 "" H 3000 5900 50  0001 C CNN
+	1    3000 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C99DCA2
+P 2500 6750
+F 0 "#PWR?" H 2500 6600 50  0001 C CNN
+F 1 "+3.3V" V 2450 6750 50  0000 L CNN
+F 2 "" H 2500 6750 50  0001 C CNN
+F 3 "" H 2500 6750 50  0001 C CNN
+	1    2500 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C9B8AC8
+P 4400 3950
+F 0 "#PWR?" H 4400 3800 50  0001 C CNN
+F 1 "+3.3V" V 4350 3950 50  0000 L CNN
+F 2 "" H 4400 3950 50  0001 C CNN
+F 3 "" H 4400 3950 50  0001 C CNN
+	1    4400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5C9CE3A0
+P 4000 4250
+F 0 "#PWR?" H 4000 4100 50  0001 C CNN
+F 1 "+3.3V" V 4000 4350 50  0000 L CNN
+F 2 "" H 4000 4250 50  0001 C CNN
+F 3 "" H 4000 4250 50  0001 C CNN
+	1    4000 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 5C9D838E
+P 3900 4150
+F 0 "C?" V 3672 4150 50  0000 C CNN
+F 1 "100nF" V 3763 4150 50  0000 C CNN
+F 2 "" H 3900 4150 50  0001 C CNN
+F 3 "~" H 3900 4150 50  0001 C CNN
+	1    3900 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5C9D9A74
+P 3800 4150
+F 0 "#PWR?" H 3800 3900 50  0001 C CNN
+F 1 "GND" V 3805 4022 50  0000 R CNN
+F 2 "" H 3800 4150 50  0001 C CNN
+F 3 "" H 3800 4150 50  0001 C CNN
+	1    3800 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 4350 3650 4350
+Text Label 3650 4350 0    50   ~ 0
+RG9
+$Comp
+L power:GND #PWR?
+U 1 1 5C9E2479
+P 4400 4550
+F 0 "#PWR?" H 4400 4300 50  0001 C CNN
+F 1 "GND" V 4405 4422 50  0000 R CNN
+F 2 "" H 4400 4550 50  0001 C CNN
+F 3 "" H 4400 4550 50  0001 C CNN
+	1    4400 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4250 5100 4250
+Wire Wire Line
+	4800 4150 5100 4150
+Wire Wire Line
+	4800 4350 5100 4350
+Text Label 4950 4150 0    50   ~ 0
+RG6
+Text Label 4950 4250 0    50   ~ 0
+RG8
+Text Label 4950 4350 0    50   ~ 0
+RG7
+Wire Notes Line
+	3300 3550 5450 3550
+Wire Notes Line
+	5450 3550 5450 4950
+Wire Notes Line
+	5450 4950 3300 4950
+Wire Notes Line
+	3300 4950 3300 3550
+Text Notes 4750 3650 0    50   ~ 0
+EEPROM MEMORY
 $EndSCHEMATC
