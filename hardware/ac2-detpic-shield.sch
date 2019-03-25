@@ -14,13 +14,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7010 7120 0    50   ~ 0
+Text Notes 7010 7120 0    50   ~ 6
 Licence: MIT\nCopyright 2019 Diogo Correia\n\nPCB Shield that extends the detpic32 development board created at DETI UA\nThis schematic is intended to be updated has the subject evolves\nFeel free to request changes or make them yourself\nConsider contributing your changes to the repo
-Text Notes 7390 7240 0    50   ~ 0
+Text Notes 7390 7240 0    50   ~ 6
 ac2-detpic-pcb.sch
 Text Notes 7360 7500 0    50   ~ 10
 PCB Shield that extends the detpic32 development board
-Text Notes 8110 7640 0    50   ~ 0
+Text Notes 8110 7640 0    50   ~ 6
 March 2019
 $Comp
 L ac2-detpic-shield:CN1(DETPIC32) MCU1
@@ -28,7 +28,7 @@ U 1 1 5C894833
 P 1150 2500
 F 0 "MCU1" H 1200 600 50  0000 R CNN
 F 1 "CN1(DETPIC32)" H 1400 700 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x28_P2.54mm_Vertical" H 1150 2500 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x28_P2.54mm_Vertical" H 1150 2500 50  0001 C CNN
 F 3 "" H 1150 2500 50  0001 C CNN
 	1    1150 2500
 	1    0    0    -1  
@@ -39,7 +39,7 @@ U 1 1 5C89489A
 P 2400 2500
 F 0 "MCU2" H 2250 600 50  0000 C CNN
 F 1 "CN2(DETPIC32)" H 2250 700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x28_P2.54mm_Vertical" V 2600 1450 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x28_P2.54mm_Vertical" V 2600 1450 50  0001 C CNN
 F 3 "" V 2600 1450 50  0001 C CNN
 	1    2400 2500
 	1    0    0    -1  
@@ -142,113 +142,113 @@ Wire Wire Line
 	2600 3650 2900 3650
 Wire Wire Line
 	2600 3750 2900 3750
-Text Label 1600 1150 0    50   ~ 0
+Text Label 1600 1150 0    50   ~ 6
 RE7
-Text Label 1600 1250 0    50   ~ 0
+Text Label 1600 1250 0    50   ~ 6
 RE6
-Text Label 1600 1350 0    50   ~ 0
+Text Label 1600 1350 0    50   ~ 6
 RE5
-Text Label 1600 1450 0    50   ~ 0
+Text Label 1600 1450 0    50   ~ 6
 RE4
-Text Label 1600 1550 0    50   ~ 0
+Text Label 1600 1550 0    50   ~ 6
 RE3
-Text Label 1600 1650 0    50   ~ 0
+Text Label 1600 1650 0    50   ~ 6
 RE2
-Text Label 1600 1750 0    50   ~ 0
+Text Label 1600 1750 0    50   ~ 6
 RE1
-Text Label 1600 1850 0    50   ~ 0
+Text Label 1600 1850 0    50   ~ 6
 RE0
-Text Label 1600 1950 0    50   ~ 0
+Text Label 1600 1950 0    50   ~ 6
 RG7
-Text Label 1600 2050 0    50   ~ 0
+Text Label 1600 2050 0    50   ~ 6
 RG8
-Text Label 1600 2150 0    50   ~ 0
+Text Label 1600 2150 0    50   ~ 6
 RG9
-Text Label 1600 2250 0    50   ~ 0
+Text Label 1600 2250 0    50   ~ 6
 RD7
-Text Label 1600 2350 0    50   ~ 0
+Text Label 1600 2350 0    50   ~ 6
 RD6
-Text Label 1600 2450 0    50   ~ 0
+Text Label 1600 2450 0    50   ~ 6
 RD5
-Text Label 1600 2550 0    50   ~ 0
+Text Label 1600 2550 0    50   ~ 6
 RD4
-Text Label 1600 2650 0    50   ~ 0
+Text Label 1600 2650 0    50   ~ 6
 RD3
-Text Label 1600 2750 0    50   ~ 0
+Text Label 1600 2750 0    50   ~ 6
 RD2
-Text Label 1600 2850 0    50   ~ 0
+Text Label 1600 2850 0    50   ~ 6
 RD1
-Text Label 1600 2950 0    50   ~ 0
+Text Label 1600 2950 0    50   ~ 6
 RD0
-Text Label 1550 3050 0    50   ~ 0
+Text Label 1550 3050 0    50   ~ 6
 RD11
-Text Label 1550 3150 0    50   ~ 0
+Text Label 1550 3150 0    50   ~ 6
 RD10
-Text Label 1600 3250 0    50   ~ 0
+Text Label 1600 3250 0    50   ~ 6
 RD9
-Text Label 1600 3350 0    50   ~ 0
+Text Label 1600 3350 0    50   ~ 6
 RD8
-Text Label 1600 3450 0    50   ~ 0
+Text Label 1600 3450 0    50   ~ 6
 RG3
-Text Label 1600 3550 0    50   ~ 0
+Text Label 1600 3550 0    50   ~ 6
 RG6
-Text Label 1500 3650 0    50   ~ 0
+Text Label 1500 3650 0    50   ~ 6
 +3.3V
-Text Label 1450 3750 0    50   ~ 0
+Text Label 1450 3750 0    50   ~ 6
 +5V_EXT
-Text Label 2750 1150 0    50   ~ 0
+Text Label 2750 1150 0    50   ~ 6
 RB6
-Text Label 2750 1250 0    50   ~ 0
+Text Label 2750 1250 0    50   ~ 6
 RB5
-Text Label 2750 1350 0    50   ~ 0
+Text Label 2750 1350 0    50   ~ 6
 RB4
-Text Label 2750 1450 0    50   ~ 0
+Text Label 2750 1450 0    50   ~ 6
 RB3
-Text Label 2750 1550 0    50   ~ 0
+Text Label 2750 1550 0    50   ~ 6
 RB2
-Text Label 2750 1650 0    50   ~ 0
+Text Label 2750 1650 0    50   ~ 6
 RB1
-Text Label 2750 1750 0    50   ~ 0
+Text Label 2750 1750 0    50   ~ 6
 RB0
-Text Label 2750 1850 0    50   ~ 0
+Text Label 2750 1850 0    50   ~ 6
 RB7
-Text Label 2750 1950 0    50   ~ 0
+Text Label 2750 1950 0    50   ~ 6
 RB8
-Text Label 2750 2050 0    50   ~ 0
+Text Label 2750 2050 0    50   ~ 6
 RB9
-Text Label 2700 2150 0    50   ~ 0
+Text Label 2700 2150 0    50   ~ 6
 RB10
-Text Label 2700 2250 0    50   ~ 0
+Text Label 2700 2250 0    50   ~ 6
 RB11
-Text Label 2700 2350 0    50   ~ 0
+Text Label 2700 2350 0    50   ~ 6
 RB12
-Text Label 2700 2450 0    50   ~ 0
+Text Label 2700 2450 0    50   ~ 6
 RB13
-Text Label 2700 2550 0    50   ~ 0
+Text Label 2700 2550 0    50   ~ 6
 RB14
-Text Label 2700 2650 0    50   ~ 0
+Text Label 2700 2650 0    50   ~ 6
 RB15
-Text Label 2750 2750 0    50   ~ 0
+Text Label 2750 2750 0    50   ~ 6
 RF0
-Text Label 2750 2850 0    50   ~ 0
+Text Label 2750 2850 0    50   ~ 6
 RF1
-Text Label 2750 2950 0    50   ~ 0
+Text Label 2750 2950 0    50   ~ 6
 RF3
-Text Label 2750 3050 0    50   ~ 0
+Text Label 2750 3050 0    50   ~ 6
 RF4
-Text Label 2750 3150 0    50   ~ 0
+Text Label 2750 3150 0    50   ~ 6
 RF5
-Text Label 2700 3250 0    50   ~ 0
+Text Label 2700 3250 0    50   ~ 6
 VBUS
-Text Label 2700 3350 0    50   ~ 0
+Text Label 2700 3350 0    50   ~ 6
 VUSB
-Text Label 2750 3450 0    50   ~ 0
+Text Label 2750 3450 0    50   ~ 6
 RG2
-Text Label 2700 3550 0    50   ~ 0
+Text Label 2700 3550 0    50   ~ 6
 RC13
-Text Label 2650 3650 0    50   ~ 0
+Text Label 2650 3650 0    50   ~ 6
 +3.3V
-Text Label 2600 3750 0    50   ~ 0
+Text Label 2600 3750 0    50   ~ 6
 +5V_EXT
 Wire Notes Line
 	600  600  600  4500
@@ -258,7 +258,7 @@ Wire Notes Line
 	3150 4500 3150 600 
 Wire Notes Line
 	3150 600  600  600 
-Text Notes 2750 700  0    50   ~ 0
+Text Notes 2750 700  0    50   ~ 6
 DETPIC32
 Wire Wire Line
 	1300 5250 1350 5250
@@ -298,13 +298,13 @@ Wire Wire Line
 	2750 5100 3000 5100
 Wire Wire Line
 	2750 5250 3000 5250
-Text Label 800  5100 0    50   ~ 0
+Text Label 800  5100 0    50   ~ 6
 RE2
-Text Label 800  5250 0    50   ~ 0
+Text Label 800  5250 0    50   ~ 6
 RE3
-Text Label 2850 5100 0    50   ~ 0
+Text Label 2850 5100 0    50   ~ 6
 RE1
-Text Label 2850 5250 0    50   ~ 0
+Text Label 2850 5250 0    50   ~ 6
 RE0
 Wire Wire Line
 	2500 6100 2600 6100
@@ -333,19 +333,19 @@ Wire Wire Line
 Connection ~ 3000 6100
 Wire Wire Line
 	3000 6100 3000 5900
-Text Label 650  6100 0    50   ~ 0
+Text Label 650  6100 0    50   ~ 6
 RB0
-Text Label 650  6200 0    50   ~ 0
+Text Label 650  6200 0    50   ~ 6
 RB1
-Text Label 650  6300 0    50   ~ 0
+Text Label 650  6300 0    50   ~ 6
 RB2
-Text Label 650  6400 0    50   ~ 0
+Text Label 650  6400 0    50   ~ 6
 RB3
 Wire Wire Line
 	2650 7050 3000 7050
 Wire Wire Line
 	2500 6900 2500 6750
-Text Label 2850 7050 0    50   ~ 0
+Text Label 2850 7050 0    50   ~ 6
 RB4
 Wire Notes Line
 	600  4650 3150 4650
@@ -355,7 +355,7 @@ Wire Notes Line
 	3150 7600 600  7600
 Wire Notes Line
 	600  7600 600  4650
-Text Notes 2700 4750 0    50   ~ 0
+Text Notes 2700 4750 0    50   ~ 6
 BASIC I/O
 Wire Wire Line
 	3750 900  3450 900 
@@ -371,19 +371,19 @@ Wire Wire Line
 	3750 1400 3450 1400
 Wire Wire Line
 	3750 1500 3450 1500
-Text Label 3450 900  0    50   ~ 0
+Text Label 3450 900  0    50   ~ 6
 RB8
-Text Label 3450 1000 0    50   ~ 0
+Text Label 3450 1000 0    50   ~ 6
 RB9
-Text Label 3450 1100 0    50   ~ 0
+Text Label 3450 1100 0    50   ~ 6
 RB10
-Text Label 3450 1200 0    50   ~ 0
+Text Label 3450 1200 0    50   ~ 6
 RB11
-Text Label 3450 1300 0    50   ~ 0
+Text Label 3450 1300 0    50   ~ 6
 RB12
-Text Label 3450 1400 0    50   ~ 0
+Text Label 3450 1400 0    50   ~ 6
 RB13
-Text Label 3450 1500 0    50   ~ 0
+Text Label 3450 1500 0    50   ~ 6
 RB14
 $Comp
 L ac2-detpic-shield:LTD-4708JR U2
@@ -426,7 +426,7 @@ Wire Wire Line
 	4800 900  4800 1550
 Wire Wire Line
 	3750 1900 3450 1900
-Text Label 3450 1900 0    50   ~ 0
+Text Label 3450 1900 0    50   ~ 6
 RB15
 Wire Wire Line
 	4350 2250 4350 2300
@@ -464,9 +464,9 @@ Connection ~ 4550 3000
 Wire Wire Line
 	4100 2800 4100 3000
 Connection ~ 4100 3000
-Text Label 4300 2600 0    50   ~ 0
+Text Label 4300 2600 0    50   ~ 6
 RD5
-Text Label 3450 2600 0    50   ~ 0
+Text Label 3450 2600 0    50   ~ 6
 RD6
 Wire Wire Line
 	3450 2600 3750 2600
@@ -480,7 +480,7 @@ Wire Notes Line
 	5450 3400 3300 3400
 Wire Notes Line
 	3300 3400 3300 600 
-Text Notes 4800 700  0    50   ~ 0
+Text Notes 4800 700  0    50   ~ 6
 DISPLAY SYSTEM
 $Comp
 L power:GND #PWR02
@@ -931,7 +931,7 @@ F 3 "" H 3900 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4000 4350 3650 4350
-Text Label 3650 4350 0    50   ~ 0
+Text Label 3650 4350 0    50   ~ 6
 RG9
 $Comp
 L power:GND #PWR014
@@ -950,11 +950,11 @@ Wire Wire Line
 	4800 4150 5100 4150
 Wire Wire Line
 	4800 4350 5100 4350
-Text Label 4950 4150 0    50   ~ 0
+Text Label 4950 4150 0    50   ~ 6
 RG6
-Text Label 4950 4250 0    50   ~ 0
+Text Label 4950 4250 0    50   ~ 6
 RG8
-Text Label 4950 4350 0    50   ~ 0
+Text Label 4950 4350 0    50   ~ 6
 RG7
 Wire Notes Line
 	3300 3550 5450 3550
@@ -964,7 +964,7 @@ Wire Notes Line
 	5450 4950 3300 4950
 Wire Notes Line
 	3300 4950 3300 3550
-Text Notes 4750 3650 0    50   ~ 0
+Text Notes 4750 3650 0    50   ~ 6
 EEPROM MEMORY
 $Comp
 L Device:R R23
@@ -1024,9 +1024,9 @@ Connection ~ 4300 5950
 Wire Wire Line
 	4150 6100 3750 6100
 Connection ~ 4150 6100
-Text Label 3750 5950 0    50   ~ 0
+Text Label 3750 5950 0    50   ~ 6
 RD9
-Text Label 3750 6100 0    50   ~ 0
+Text Label 3750 6100 0    50   ~ 6
 RD10
 Wire Notes Line
 	3300 5100 5450 5100
@@ -1036,7 +1036,7 @@ Wire Notes Line
 	5450 6700 3300 6700
 Wire Notes Line
 	3300 6700 3300 5100
-Text Notes 4550 5200 0    50   ~ 0
+Text Notes 4550 5200 0    50   ~ 6
 TEMPERATURE SENSOR
 Wire Wire Line
 	1450 1450 1750 1450
@@ -1081,21 +1081,21 @@ Wire Wire Line
 	4750 6400 4750 6350
 Wire Wire Line
 	1450 3550 1750 3550
-Text Label 3000 5900 2    50   ~ 0
+Text Label 3000 5900 2    50   ~ 6
 +3.3V
-Text Label 2500 6750 2    50   ~ 0
+Text Label 2500 6750 2    50   ~ 6
 +3.3V
 Wire Wire Line
 	4300 5500 4300 5350
-Text Label 4300 5350 0    50   ~ 0
+Text Label 4300 5350 0    50   ~ 6
 +3.3V
 Wire Wire Line
 	4400 3950 4400 3800
-Text Label 4400 3800 2    50   ~ 0
+Text Label 4400 3800 2    50   ~ 6
 +3.3V
 Wire Wire Line
 	4000 4250 3650 4250
-Text Label 3650 4250 0    50   ~ 0
+Text Label 3650 4250 0    50   ~ 6
 +3.3V
 Wire Wire Line
 	3900 3850 3900 3900
