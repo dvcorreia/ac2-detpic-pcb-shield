@@ -14,13 +14,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 7010 7120 0    50   ~ 6
+Text Notes 7010 7120 0    50   ~ 10
 Licence: MIT\nCopyright 2019 Diogo Correia\n\nPCB Shield that extends the detpic32 development board created at DETI UA\nThis schematic is intended to be updated has the subject evolves\nFeel free to request changes or make them yourself\nConsider contributing your changes to the repo
-Text Notes 7390 7240 0    50   ~ 6
+Text Notes 7390 7240 0    50   ~ 10
 ac2-detpic-pcb.sch
 Text Notes 7360 7500 0    50   ~ 10
 PCB Shield that extends the detpic32 development board
-Text Notes 8110 7640 0    50   ~ 6
+Text Notes 8110 7640 0    50   ~ 10
 March 2019
 $Comp
 L ac2-detpic-shield:CN1(DETPIC32) MCU1
@@ -59,39 +59,15 @@ Wire Wire Line
 Wire Wire Line
 	1450 2150 1750 2150
 Wire Wire Line
-	1450 2250 1750 2250
-Wire Wire Line
 	1450 2350 1750 2350
 Wire Wire Line
 	1450 2450 1750 2450
 Wire Wire Line
-	1450 2550 1750 2550
-Wire Wire Line
-	1450 2650 1750 2650
-Wire Wire Line
-	1450 2750 1750 2750
-Wire Wire Line
-	1450 2850 1750 2850
-Wire Wire Line
-	1450 2950 1750 2950
-Wire Wire Line
-	1450 3050 1750 3050
-Wire Wire Line
-	1450 3150 1750 3150
-Wire Wire Line
 	1450 3250 1750 3250
-Wire Wire Line
-	1450 3350 1750 3350
-Wire Wire Line
-	1450 3450 1750 3450
 Wire Wire Line
 	1450 3650 1750 3650
 Wire Wire Line
 	1450 3750 1750 3750
-Wire Wire Line
-	2600 1150 2900 1150
-Wire Wire Line
-	2600 1250 2900 1250
 Wire Wire Line
 	2600 1350 2900 1350
 Wire Wire Line
@@ -102,8 +78,6 @@ Wire Wire Line
 	2600 1650 2900 1650
 Wire Wire Line
 	2600 1750 2900 1750
-Wire Wire Line
-	2600 1850 2900 1850
 Wire Wire Line
 	2600 1950 2900 1950
 Wire Wire Line
@@ -121,135 +95,115 @@ Wire Wire Line
 Wire Wire Line
 	2600 2650 2900 2650
 Wire Wire Line
-	2600 2750 2900 2750
-Wire Wire Line
-	2600 2850 2900 2850
-Wire Wire Line
-	2600 2950 2900 2950
-Wire Wire Line
-	2600 3050 2900 3050
-Wire Wire Line
-	2600 3150 2900 3150
-Wire Wire Line
-	2600 3250 2900 3250
-Wire Wire Line
-	2600 3350 2900 3350
-Wire Wire Line
-	2600 3450 2900 3450
-Wire Wire Line
-	2600 3550 2900 3550
-Wire Wire Line
 	2600 3650 2900 3650
 Wire Wire Line
 	2600 3750 2900 3750
-Text Label 1600 1150 0    50   ~ 6
+Text Label 1450 1150 0    50   ~ 10
 RE7
-Text Label 1600 1250 0    50   ~ 6
+Text Label 1450 1250 0    50   ~ 10
 RE6
-Text Label 1600 1350 0    50   ~ 6
+Text Label 1450 1350 0    50   ~ 10
 RE5
-Text Label 1600 1450 0    50   ~ 6
+Text Label 1450 1450 0    50   ~ 10
 RE4
-Text Label 1600 1550 0    50   ~ 6
+Text Label 1600 1550 0    50   ~ 10
 RE3
-Text Label 1600 1650 0    50   ~ 6
+Text Label 1600 1650 0    50   ~ 10
 RE2
-Text Label 1600 1750 0    50   ~ 6
+Text Label 1600 1750 0    50   ~ 10
 RE1
-Text Label 1600 1850 0    50   ~ 6
+Text Label 1600 1850 0    50   ~ 10
 RE0
-Text Label 1600 1950 0    50   ~ 6
+Text Label 1600 1950 0    50   ~ 10
 RG7
-Text Label 1600 2050 0    50   ~ 6
+Text Label 1600 2050 0    50   ~ 10
 RG8
-Text Label 1600 2150 0    50   ~ 6
+Text Label 1600 2150 0    50   ~ 10
 RG9
-Text Label 1600 2250 0    50   ~ 6
+Text Label 1450 2250 0    50   ~ 10
 RD7
-Text Label 1600 2350 0    50   ~ 6
+Text Label 1600 2350 0    50   ~ 10
 RD6
-Text Label 1600 2450 0    50   ~ 6
+Text Label 1600 2450 0    50   ~ 10
 RD5
-Text Label 1600 2550 0    50   ~ 6
+Text Label 1450 2550 0    50   ~ 10
 RD4
-Text Label 1600 2650 0    50   ~ 6
+Text Label 1450 2650 0    50   ~ 10
 RD3
-Text Label 1600 2750 0    50   ~ 6
+Text Label 1450 2750 0    50   ~ 10
 RD2
-Text Label 1600 2850 0    50   ~ 6
+Text Label 1450 2850 0    50   ~ 10
 RD1
-Text Label 1600 2950 0    50   ~ 6
+Text Label 1450 2950 0    50   ~ 10
 RD0
-Text Label 1550 3050 0    50   ~ 6
-RD11
-Text Label 1550 3150 0    50   ~ 6
+Text Label 1450 3150 0    50   ~ 10
 RD10
-Text Label 1600 3250 0    50   ~ 6
+Text Label 1600 3250 0    50   ~ 10
 RD9
-Text Label 1600 3350 0    50   ~ 6
+Text Label 1450 3350 0    50   ~ 10
 RD8
-Text Label 1600 3450 0    50   ~ 6
+Text Label 1450 3450 0    50   ~ 10
 RG3
-Text Label 1600 3550 0    50   ~ 6
+Text Label 1600 3550 0    50   ~ 10
 RG6
-Text Label 1500 3650 0    50   ~ 6
+Text Label 1500 3650 0    50   ~ 10
 +3.3V
-Text Label 1450 3750 0    50   ~ 6
-+5V_EXT
-Text Label 2750 1150 0    50   ~ 6
+Text Label 1450 3750 0    50   ~ 10
++5V_EXT1
+Text Label 2600 1150 0    50   ~ 10
 RB6
-Text Label 2750 1250 0    50   ~ 6
+Text Label 2600 1250 0    50   ~ 10
 RB5
-Text Label 2750 1350 0    50   ~ 6
+Text Label 2750 1350 0    50   ~ 10
 RB4
-Text Label 2750 1450 0    50   ~ 6
+Text Label 2750 1450 0    50   ~ 10
 RB3
-Text Label 2750 1550 0    50   ~ 6
+Text Label 2750 1550 0    50   ~ 10
 RB2
-Text Label 2750 1650 0    50   ~ 6
+Text Label 2750 1650 0    50   ~ 10
 RB1
-Text Label 2750 1750 0    50   ~ 6
+Text Label 2750 1750 0    50   ~ 10
 RB0
-Text Label 2750 1850 0    50   ~ 6
+Text Label 2600 1850 0    50   ~ 10
 RB7
-Text Label 2750 1950 0    50   ~ 6
+Text Label 2750 1950 0    50   ~ 10
 RB8
-Text Label 2750 2050 0    50   ~ 6
+Text Label 2750 2050 0    50   ~ 10
 RB9
-Text Label 2700 2150 0    50   ~ 6
+Text Label 2700 2150 0    50   ~ 10
 RB10
-Text Label 2700 2250 0    50   ~ 6
+Text Label 2700 2250 0    50   ~ 10
 RB11
-Text Label 2700 2350 0    50   ~ 6
+Text Label 2700 2350 0    50   ~ 10
 RB12
-Text Label 2700 2450 0    50   ~ 6
+Text Label 2700 2450 0    50   ~ 10
 RB13
-Text Label 2700 2550 0    50   ~ 6
+Text Label 2700 2550 0    50   ~ 10
 RB14
-Text Label 2700 2650 0    50   ~ 6
+Text Label 2700 2650 0    50   ~ 10
 RB15
-Text Label 2750 2750 0    50   ~ 6
+Text Label 2600 2750 0    50   ~ 10
 RF0
-Text Label 2750 2850 0    50   ~ 6
+Text Label 2600 2850 0    50   ~ 10
 RF1
-Text Label 2750 2950 0    50   ~ 6
+Text Label 2600 2950 0    50   ~ 10
 RF3
-Text Label 2750 3050 0    50   ~ 6
+Text Label 2600 3050 0    50   ~ 10
 RF4
-Text Label 2750 3150 0    50   ~ 6
+Text Label 2600 3150 0    50   ~ 10
 RF5
-Text Label 2700 3250 0    50   ~ 6
+Text Label 2600 3250 0    50   ~ 10
 VBUS
-Text Label 2700 3350 0    50   ~ 6
+Text Label 2600 3350 0    50   ~ 10
 VUSB
-Text Label 2750 3450 0    50   ~ 6
+Text Label 2600 3450 0    50   ~ 10
 RG2
-Text Label 2700 3550 0    50   ~ 6
+Text Label 2600 3550 0    50   ~ 10
 RC13
-Text Label 2650 3650 0    50   ~ 6
+Text Label 2650 3650 0    50   ~ 10
 +3.3V
-Text Label 2600 3750 0    50   ~ 6
-+5V_EXT
+Text Label 2600 3750 0    50   ~ 10
++5V_EXT2
 Wire Notes Line
 	600  600  600  4500
 Wire Notes Line
@@ -258,7 +212,7 @@ Wire Notes Line
 	3150 4500 3150 600 
 Wire Notes Line
 	3150 600  600  600 
-Text Notes 2750 700  0    50   ~ 6
+Text Notes 2750 700  0    50   ~ 10
 DETPIC32
 Wire Wire Line
 	1300 5250 1350 5250
@@ -298,13 +252,13 @@ Wire Wire Line
 	2750 5100 3000 5100
 Wire Wire Line
 	2750 5250 3000 5250
-Text Label 800  5100 0    50   ~ 6
+Text Label 800  5100 0    50   ~ 10
 RE2
-Text Label 800  5250 0    50   ~ 6
+Text Label 800  5250 0    50   ~ 10
 RE3
-Text Label 2850 5100 0    50   ~ 6
+Text Label 2850 5100 0    50   ~ 10
 RE1
-Text Label 2850 5250 0    50   ~ 6
+Text Label 2850 5250 0    50   ~ 10
 RE0
 Wire Wire Line
 	2500 6100 2600 6100
@@ -333,19 +287,19 @@ Wire Wire Line
 Connection ~ 3000 6100
 Wire Wire Line
 	3000 6100 3000 5900
-Text Label 650  6100 0    50   ~ 6
+Text Label 650  6100 0    50   ~ 10
 RB0
-Text Label 650  6200 0    50   ~ 6
+Text Label 650  6200 0    50   ~ 10
 RB1
-Text Label 650  6300 0    50   ~ 6
+Text Label 650  6300 0    50   ~ 10
 RB2
-Text Label 650  6400 0    50   ~ 6
+Text Label 650  6400 0    50   ~ 10
 RB3
 Wire Wire Line
 	2650 7050 3000 7050
 Wire Wire Line
 	2500 6900 2500 6750
-Text Label 2850 7050 0    50   ~ 6
+Text Label 2850 7050 0    50   ~ 10
 RB4
 Wire Notes Line
 	600  4650 3150 4650
@@ -355,7 +309,7 @@ Wire Notes Line
 	3150 7600 600  7600
 Wire Notes Line
 	600  7600 600  4650
-Text Notes 2700 4750 0    50   ~ 6
+Text Notes 2700 4750 0    50   ~ 10
 BASIC I/O
 Wire Wire Line
 	3750 900  3450 900 
@@ -371,19 +325,19 @@ Wire Wire Line
 	3750 1400 3450 1400
 Wire Wire Line
 	3750 1500 3450 1500
-Text Label 3450 900  0    50   ~ 6
+Text Label 3450 900  0    50   ~ 10
 RB8
-Text Label 3450 1000 0    50   ~ 6
+Text Label 3450 1000 0    50   ~ 10
 RB9
-Text Label 3450 1100 0    50   ~ 6
+Text Label 3450 1100 0    50   ~ 10
 RB10
-Text Label 3450 1200 0    50   ~ 6
+Text Label 3450 1200 0    50   ~ 10
 RB11
-Text Label 3450 1300 0    50   ~ 6
+Text Label 3450 1300 0    50   ~ 10
 RB12
-Text Label 3450 1400 0    50   ~ 6
+Text Label 3450 1400 0    50   ~ 10
 RB13
-Text Label 3450 1500 0    50   ~ 6
+Text Label 3450 1500 0    50   ~ 10
 RB14
 $Comp
 L ac2-detpic-shield:LTD-4708JR U2
@@ -426,7 +380,7 @@ Wire Wire Line
 	4800 900  4800 1550
 Wire Wire Line
 	3750 1900 3450 1900
-Text Label 3450 1900 0    50   ~ 6
+Text Label 3450 1900 0    50   ~ 10
 RB15
 Wire Wire Line
 	4350 2250 4350 2300
@@ -464,9 +418,9 @@ Connection ~ 4550 3000
 Wire Wire Line
 	4100 2800 4100 3000
 Connection ~ 4100 3000
-Text Label 4300 2600 0    50   ~ 6
+Text Label 4300 2600 0    50   ~ 10
 RD5
-Text Label 3450 2600 0    50   ~ 6
+Text Label 3450 2600 0    50   ~ 10
 RD6
 Wire Wire Line
 	3450 2600 3750 2600
@@ -480,7 +434,7 @@ Wire Notes Line
 	5450 3400 3300 3400
 Wire Notes Line
 	3300 3400 3300 600 
-Text Notes 4800 700  0    50   ~ 6
+Text Notes 4800 700  0    50   ~ 10
 DISPLAY SYSTEM
 $Comp
 L power:GND #PWR02
@@ -931,7 +885,7 @@ F 3 "" H 3900 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4000 4350 3650 4350
-Text Label 3650 4350 0    50   ~ 6
+Text Label 3650 4350 0    50   ~ 10
 RG9
 $Comp
 L power:GND #PWR014
@@ -950,11 +904,11 @@ Wire Wire Line
 	4800 4150 5100 4150
 Wire Wire Line
 	4800 4350 5100 4350
-Text Label 4950 4150 0    50   ~ 6
+Text Label 4950 4150 0    50   ~ 10
 RG6
-Text Label 4950 4250 0    50   ~ 6
+Text Label 4950 4250 0    50   ~ 10
 RG8
-Text Label 4950 4350 0    50   ~ 6
+Text Label 4950 4350 0    50   ~ 10
 RG7
 Wire Notes Line
 	3300 3550 5450 3550
@@ -964,7 +918,7 @@ Wire Notes Line
 	5450 4950 3300 4950
 Wire Notes Line
 	3300 4950 3300 3550
-Text Notes 4750 3650 0    50   ~ 6
+Text Notes 4750 3650 0    50   ~ 10
 EEPROM MEMORY
 $Comp
 L Device:R R23
@@ -1024,9 +978,9 @@ Connection ~ 4300 5950
 Wire Wire Line
 	4150 6100 3750 6100
 Connection ~ 4150 6100
-Text Label 3750 5950 0    50   ~ 6
+Text Label 3750 5950 0    50   ~ 10
 RD9
-Text Label 3750 6100 0    50   ~ 6
+Text Label 3750 6100 0    50   ~ 10
 RD10
 Wire Notes Line
 	3300 5100 5450 5100
@@ -1036,41 +990,8 @@ Wire Notes Line
 	5450 6700 3300 6700
 Wire Notes Line
 	3300 6700 3300 5100
-Text Notes 4550 5200 0    50   ~ 6
+Text Notes 4550 5200 0    50   ~ 10
 TEMPERATURE SENSOR
-Wire Wire Line
-	1450 1450 1750 1450
-Wire Wire Line
-	1450 1350 1750 1350
-Wire Wire Line
-	1450 1150 1750 1150
-NoConn ~ 1750 1150
-NoConn ~ 1750 1250
-NoConn ~ 1750 1350
-NoConn ~ 1750 1450
-Wire Wire Line
-	1750 1250 1450 1250
-NoConn ~ 1750 2250
-NoConn ~ 1750 2550
-NoConn ~ 1750 2650
-NoConn ~ 1750 2750
-NoConn ~ 1750 2850
-NoConn ~ 1750 2950
-NoConn ~ 1750 3050
-NoConn ~ 1750 3350
-NoConn ~ 1750 3450
-NoConn ~ 2900 3550
-NoConn ~ 2900 3450
-NoConn ~ 2900 3350
-NoConn ~ 2900 3250
-NoConn ~ 2900 3150
-NoConn ~ 2900 3050
-NoConn ~ 2900 2950
-NoConn ~ 2900 2850
-NoConn ~ 2900 2750
-NoConn ~ 2900 1850
-NoConn ~ 2900 1250
-NoConn ~ 2900 1150
 Wire Wire Line
 	1450 3850 1600 3850
 Wire Wire Line
@@ -1081,21 +1002,21 @@ Wire Wire Line
 	4750 6400 4750 6350
 Wire Wire Line
 	1450 3550 1750 3550
-Text Label 3000 5900 2    50   ~ 6
+Text Label 3000 5900 2    50   ~ 10
 +3.3V
-Text Label 2500 6750 2    50   ~ 6
+Text Label 2500 6750 2    50   ~ 10
 +3.3V
 Wire Wire Line
 	4300 5500 4300 5350
-Text Label 4300 5350 0    50   ~ 6
+Text Label 4300 5350 0    50   ~ 10
 +3.3V
 Wire Wire Line
 	4400 3950 4400 3800
-Text Label 4400 3800 2    50   ~ 6
+Text Label 4400 3800 2    50   ~ 10
 +3.3V
 Wire Wire Line
 	4000 4250 3650 4250
-Text Label 3650 4250 0    50   ~ 6
+Text Label 3650 4250 0    50   ~ 10
 +3.3V
 Wire Wire Line
 	3900 3850 3900 3900
@@ -1131,4 +1052,137 @@ F 3 "" H 4750 6050 50  0001 C CNN
 	1    4750 6050
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector:Conn_01x04_Male J1
+U 1 1 5C99F0D6
+P 1750 1350
+F 0 "J1" H 1650 1300 50  0000 R CNN
+F 1 "HEADER" V 1700 1450 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1750 1350 50  0001 C CNN
+F 3 "~" H 1750 1350 50  0001 C CNN
+	1    1750 1350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 1150 1550 1150
+Wire Wire Line
+	1550 1250 1450 1250
+Wire Wire Line
+	1450 1350 1550 1350
+Wire Wire Line
+	1550 1450 1450 1450
+Text Label 1450 3050 0    50   ~ 10
+RD11
+NoConn ~ 1750 3750
+NoConn ~ 2900 3750
+$Comp
+L Connector:Conn_01x01_Male J2
+U 1 1 5C9D76AB
+P 1750 2250
+F 0 "J2" H 1650 2250 50  0000 R CNN
+F 1 "HEADER" V 1700 2400 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1750 2250 50  0001 C CNN
+F 3 "~" H 1750 2250 50  0001 C CNN
+	1    1750 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x07_Male J3
+U 1 1 5C9D88C9
+P 1750 2850
+F 0 "J3" H 1650 2850 50  0000 R CNN
+F 1 "HEADER" V 1700 3000 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 1750 2850 50  0001 C CNN
+F 3 "~" H 1750 2850 50  0001 C CNN
+	1    1750 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 5C9DA65B
+P 1750 3450
+F 0 "J4" H 1650 3400 50  0000 R CNN
+F 1 "HEADER" V 1700 3550 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1750 3450 50  0001 C CNN
+F 3 "~" H 1750 3450 50  0001 C CNN
+	1    1750 3450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1550 2250 1450 2250
+Wire Wire Line
+	1550 2550 1450 2550
+Wire Wire Line
+	1550 2650 1450 2650
+Wire Wire Line
+	1550 2750 1450 2750
+Wire Wire Line
+	1550 2850 1450 2850
+Wire Wire Line
+	1550 2950 1450 2950
+Wire Wire Line
+	1550 3050 1450 3050
+Wire Wire Line
+	1550 3150 1450 3150
+Wire Wire Line
+	1550 3350 1450 3350
+Wire Wire Line
+	1550 3450 1450 3450
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5CA24D36
+P 2900 1250
+F 0 "J5" H 2800 1200 50  0000 R CNN
+F 1 "HEADER" V 2850 1350 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2900 1250 50  0001 C CNN
+F 3 "~" H 2900 1250 50  0001 C CNN
+	1    2900 1250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 1150 2700 1150
+Wire Wire Line
+	2700 1250 2600 1250
+$Comp
+L Connector:Conn_01x01_Male J6
+U 1 1 5CA36A20
+P 2900 1850
+F 0 "J6" H 2800 1850 50  0000 R CNN
+F 1 "HEADER" V 2850 2000 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 2900 1850 50  0001 C CNN
+F 3 "~" H 2900 1850 50  0001 C CNN
+	1    2900 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 1850 2600 1850
+$Comp
+L Connector:Conn_01x09_Male J7
+U 1 1 5CA3FB0C
+P 2900 3150
+F 0 "J7" H 2800 3150 50  0000 R CNN
+F 1 "HEADER" V 2850 3300 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 2900 3150 50  0001 C CNN
+F 3 "~" H 2900 3150 50  0001 C CNN
+	1    2900 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2700 2750 2600 2750
+Wire Wire Line
+	2700 2850 2600 2850
+Wire Wire Line
+	2700 2950 2600 2950
+Wire Wire Line
+	2700 3050 2600 3050
+Wire Wire Line
+	2700 3150 2600 3150
+Wire Wire Line
+	2700 3250 2600 3250
+Wire Wire Line
+	2700 3350 2600 3350
+Wire Wire Line
+	2700 3450 2600 3450
+Wire Wire Line
+	2700 3550 2600 3550
 $EndSCHEMATC
