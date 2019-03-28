@@ -23,6 +23,8 @@ Every PCB in this repo has a README that can be found in the root directory of t
 
 ## Order
 
+Before you order, print the gerber in a sheet of paper and test fit with your components. Boards might have errors or incompatibilities.
+
 The sugested PCB prototype manufacturer is [JLCPCB](https://jlcpcb.com/). It is cheap, less that 10€ for 5 PCBs (< 100x100mm), and you can order it with other students. We have used it before and the quality is ok. Feel free to DIY.
 
 To order you just need to upload the gerber files and follow the instructions in the respective manufacturer website. The gerber files can be found in the gerber folder inside the board project directory.
@@ -31,7 +33,7 @@ To order you just need to upload the gerber files and follow the instructions in
 
 | Name  | Descripion |
 | ------------- | ------------- |
-| [__20182019-TH-V1.0__](https://github.com/dvcorreia/ac2-detpic-shield/tree/master/hardware)  |  1st version of the throught hole 2019's board
+| [__20182019-TH-V1.0__](https://github.com/dvcorreia/ac2-detpic-shield/tree/master/hardware/20182019-TH-V1.0)  |  1st version of the throught hole 2019's board
 
 ## Issues
 
