@@ -8,6 +8,7 @@
 ## Render
 
 Make sure that your components footprints are the ones been used in this PCB. If not be sure to change them.
+There is a __test-fit.pdf__ inside the /docs folder that you can print to check if your components fit.
 
 <p align="center">
 <img src="./docs/3d-pcb-render.png" alt="">
