@@ -11,7 +11,7 @@ The most frequent situation that the students enroled in the subject experience 
 
 The shield provides a robust solution, easy to transport, user friendly and fault proof.
 
-> __The existence of this pcb doesn't implies that the students shouldn't prototype the circuitry in the bread board at least once. It is important that the student understands the schematic and be able to assembly the circuit autonomously.__
+> __The existence of this pcb doesn't implie that the students shouldn't prototype the circuitry in the bread board at least once. It is important that the student understands the schematic and be able to assembly the circuit autonomously.__
 
 ## Customize
 
