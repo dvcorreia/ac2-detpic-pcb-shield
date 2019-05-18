@@ -45,4 +45,4 @@ We will try to anwser you as fast as possible.
 Feel free to contribute your version of the PCB! Others might enjoy it and would like to use it.
 
 To do so, open a [pull request](https://help.github.com/en/articles/about-pull-requests). Make sure to follow the organization structure
-already implemented. Don't forget to add a README with usefull information. Check the one in _20182019-TH-V1.0_ project directory has an example.
+already implemented. Don't forget to add a README with usefull information. Check the one in _20182019-TH_ project directory has an example.
