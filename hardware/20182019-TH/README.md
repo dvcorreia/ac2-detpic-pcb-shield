@@ -1,6 +1,6 @@
 # 20182019-TH-V1.0
 
-    Name: 20182019-TH-V1.0
+    Name: 20182019-TH-V1.1
     Year: 2018/2019
     Size: 99.06mm x 69.6mm
     Author: Diogo Correia (@dvcorreia)
