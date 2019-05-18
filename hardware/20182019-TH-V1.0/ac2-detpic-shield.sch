@@ -1185,4 +1185,40 @@ Wire Wire Line
 	2700 3450 2600 3450
 Wire Wire Line
 	2700 3550 2600 3550
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5CE0C159
+P 3450 7150
+F 0 "TP1" H 3508 7268 50  0000 L CNN
+F 1 "Test Point GND" H 3508 7177 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 3650 7150 50  0001 C CNN
+F 3 "~" H 3650 7150 50  0001 C CNN
+	1    3450 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5CE0CF54
+P 3450 7350
+F 0 "#PWR04" H 3450 7100 50  0001 C CNN
+F 1 "GND" H 3455 7177 50  0000 C CNN
+F 2 "" H 3450 7350 50  0001 C CNN
+F 3 "" H 3450 7350 50  0001 C CNN
+	1    3450 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 7150 3450 7350
+Wire Notes Line
+	3300 6850 4200 6850
+Wire Notes Line
+	4200 6850 4200 7600
+Wire Notes Line
+	4200 7600 3300 7600
+Wire Notes Line
+	3300 7600 3300 6850
+Text Notes 3850 6950 0    50   ~ 10
+GND TP
+Text Notes 10570 7640 0    50   ~ 10
+v1.1 May 2019
 $EndSCHEMATC
