@@ -31,9 +31,9 @@ To order you just need to upload the gerber files and follow the instructions in
 
 ## Boards
 
-| Name  | Descripion |
-| ------------- | ------------- |
-| [__20182019-TH-V1.1__](https://github.com/dvcorreia/ac2-detpic-shield/tree/master/hardware/20182019-TH)  |  1st version of the throught hole 2019's board
+| Name  | Descripion | Tested |
+| ------------- | ------------- |------------- |
+| [__20182019-TH-V1.1__](https://github.com/dvcorreia/ac2-detpic-shield/tree/master/hardware/20182019-TH)  |  1st version of the throught hole 2019's board | :red_circle:
 
 ## Issues
 
