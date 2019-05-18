@@ -1,6 +1,6 @@
 <p align="center">This repository contains hardware designs for a PCB shield that extends the detpic32 develpoment board created at DETI UA
 
-<img src="./hardware/20182019-TH-V1.0/docs/3d-pcb-render.png" alt="">
+<img src="./hardware/20182019-TH/docs/3d-pcb-render.png" alt="">
 </p>
 
 ## Description
@@ -33,7 +33,7 @@ To order you just need to upload the gerber files and follow the instructions in
 
 | Name  | Descripion |
 | ------------- | ------------- |
-| [__20182019-TH-V1.0__](https://github.com/dvcorreia/ac2-detpic-shield/tree/master/hardware/20182019-TH-V1.0)  |  1st version of the throught hole 2019's board
+| [__20182019-TH-V1.1__](https://github.com/dvcorreia/ac2-detpic-shield/tree/master/hardware/20182019-TH)  |  1st version of the throught hole 2019's board
 
 ## Issues
 
