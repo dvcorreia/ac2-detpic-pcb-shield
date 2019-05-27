@@ -46,3 +46,20 @@ Feel free to contribute your version of the PCB! Others might enjoy it and would
 
 To do so, open a [pull request](https://help.github.com/en/articles/about-pull-requests). Make sure to follow the organization structure
 already implemented. Don't forget to add a README with usefull information. Check the one in _20182019-TH_ project directory has an example.
+
+## License & Copyright
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+_Copyright 2019 Diogo Correia_
