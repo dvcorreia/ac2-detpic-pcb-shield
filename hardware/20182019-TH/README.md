@@ -27,10 +27,6 @@ There is a __test-fit.pdf__ inside the /docs folder that you can print to check 
 
 ## Pins
 
-- :white_check_mark:: not being used 
-
-- :red_circle:: being used
-
 | N  | CN1  | Description          | CN2  | Description   |
 |----|------|----------------------|------|---------------|
 | 1  | RE7  | -                    | RB6  | -             |
