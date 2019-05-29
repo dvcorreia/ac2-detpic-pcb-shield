@@ -31,31 +31,31 @@ There is a __test-fit.pdf__ inside the /docs folder that you can print to check 
 
 - :red_circle:: being used
 
-| N  | CN1  | DESCRIPTION          | STATE              | CN2  | DESCRIPTION   | STATE              |
-|----|------|----------------------|--------------------|------|---------------|--------------------|
-| 1  | RE7  | -                    | :white_check_mark: | RB6  | -             | :white_check_mark: |
-| 2  | RE6  | -                    | :white_check_mark: | RB5  | -             | :white_check_mark: |
-| 3  | RE5  | -                    | :white_check_mark: | RB4  | POTENTIOMETER | :red_circle:       |
-| 4  | RE4  | -                    | :white_check_mark: | RB3  | DIP SWITCH x4 | :red_circle:       |
-| 5  | RE3  | LEDS                 | :red_circle:       | RB2  | DIP SWITCH x4 | :red_circle:       |
-| 6  | RE2  | LEDS                 | :red_circle:       | RB1  | DIP SWITCH x4 | :red_circle:       |
-| 7  | RE1  | LEDS                 | :red_circle:       | RB0  | DIP SWITCH x4 | :red_circle:       |
-| 8  | RE0  | LEDS                 | :red_circle:       | RB7  | -             | :white_check_mark: |
-| 9  | RG7  | EEPROM 1             | :red_circle:       | RB8  | 7 SEG DISPLAY | :red_circle:       |
-| 10 | RG8  | EEPROM 1             | :red_circle:       | RB9  | 7 SEG DISPLAY | :red_circle:       |
-| 11 | RG9  | EEPROM 1             | :red_circle:       | RB10 | 7 SEG DISPLAY | :red_circle:       |
-| 12 | RD7  | -                    | :white_check_mark: | RB11 | 7 SEG DISPLAY | :red_circle:       |
-| 13 | RD6  | 7 SEG DISPLAY SWITCH | :red_circle:       | RB12 | 7 SEG DISPLAY | :red_circle:       |
-| 14 | RD5  | 7 SEG DISPLAY SWITCH | :red_circle:       | RB13 | 7 SEG DISPLAY | :red_circle:       |
-| 15 | RD4  | -                    | :white_check_mark: | RB14 | 7 SEG DISPLAY | :red_circle:       |
-| 16 | RD3  | -                    | :white_check_mark: | RB15 | 7 SEG DISPLAY | :red_circle:       |
-| 17 | RD2  | -                    | :white_check_mark: | RF0  | -             | :white_check_mark: |
-| 18 | RD1  | -                    | :white_check_mark: | RF1  | -             | :white_check_mark: |
-| 19 | RD0  | -                    | :white_check_mark: | RF3  | -             | :white_check_mark: |
-| 20 | RD11 | -                    | :white_check_mark: | RF4  | -             | :white_check_mark: |
-| 21 | RD10 | TEMPERATURE SENSOR   | :red_circle:       | RF5  | -             | :white_check_mark: |
-| 22 | RD9  | TEMPERATURE SENSOR   | :red_circle:       | VBUS | -             | :white_check_mark: |
-| 23 | RD8  | -                    | :white_check_mark: | VUSB | -             | :white_check_mark: |
-| 24 | RG3  | -                    | :white_check_mark: | RG2  | -             | :white_check_mark: |
-| 25 | RG6  | EEPROM 1             | :red_circle:       | RC13 | -             | :white_check_mark: |
+| N  | CN1  | Description          | CN2  | Description   |
+|----|------|----------------------|------|---------------|
+| 1  | RE7  | -                    | RB6  | -             |
+| 2  | RE6  | -                    | RB5  | -             |
+| 3  | RE5  | -                    | RB4  | Potentiometer |
+| 4  | RE4  | -                    | RB3  | DIP Switch x4 |
+| 5  | RE3  | LEDS                 | RB2  | DIP Switch x4 |
+| 6  | RE2  | LEDS                 | RB1  | DIP Switch x4 |
+| 7  | RE1  | LEDS                 | RB0  | DIP Switch x4 |
+| 8  | RE0  | LEDS                 | RB7  | -             |
+| 9  | RG7  | EEPROM 1             | RB8  | 7 SEG Display |
+| 10 | RG8  | EEPROM 1             | RB9  | 7 SEG Display |
+| 11 | RG9  | EEPROM 1             | RB10 | 7 SEG Display |
+| 12 | RD7  | -                    | RB11 | 7 SEG Display |
+| 13 | RD6  | 7 SEG Display Switch | RB12 | 7 SEG Display |
+| 14 | RD5  | 7 SEG Display Switch | RB13 | 7 SEG Display |
+| 15 | RD4  | -                    | RB14 | 7 SEG Display |
+| 16 | RD3  | -                    | RB15 | 7 SEG Display |
+| 17 | RD2  | -                    | RF0  | -             |
+| 18 | RD1  | -                    | RF1  | -             |
+| 19 | RD0  | -                    | RF3  | -             |
+| 20 | RD11 | -                    | RF4  | -             |
+| 21 | RD10 | Temperature Sensor   | RF5  | -             |
+| 22 | RD9  | Temperature Sensor   | VBUS | -             |
+| 23 | RD8  | -                    | VUSB | -             |
+| 24 | RG3  | -                    | RG2  | -             |
+| 25 | RG6  | EEPROM 1             | RC13 | -             |
 
