@@ -17,12 +17,12 @@ There is a __test-fit.pdf__ inside the /docs folder that you can print to check 
 ## Description
 
 - This board implements the default circuitry of the 2018/2019 subject guide
-- All of its components are throught hole
+- All of its components are through hole 
 - The routes were computed using [Freerouting](https://freerouting.org/freerouting/using-with-kicad)
 
-## Sugestions
+## Suggestions
 
-- Replace some throught hole components with SMD
+- Replace some through hole components with SMD
 - Use resistor arrays
 
 ## Pins
@@ -55,3 +55,9 @@ There is a __test-fit.pdf__ inside the /docs folder that you can print to check 
 | 24 | RG3  | -                    | RG2  | -             |
 | 25 | RG6  | EEPROM 1             | RC13 | -             |
 
+## Cases
+
+| Name            | Description                            | Render Link                             | Files                           |
+|-----------------|----------------------------------------|-----------------------------------------|---------------------------------|
+| case-with-cover | Case with sliding cover                | [link](./cases/case-with-cover/renders) | [here](./cases/case-with-cover) |
+| stand           | Adapted stand from the case-with-cover | [link](./cases/stand/renders)           | [here](./cases/stand)           |

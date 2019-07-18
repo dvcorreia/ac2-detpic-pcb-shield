@@ -1,4 +1,4 @@
-<p align="center">This repository contains hardware designs for a PCB shield that extends the detpic32 develpoment board created at DETI UA
+<p align="center">This repository contains hardware designs for a PCB shield that extends the detpic32 development board created at DETI UA
 
 <img src="./hardware/20182019-TH/docs/3d-pcb-render.png" alt="">
 </p>
@@ -7,11 +7,13 @@
 
 This project provides a solution to the transportation and handle of the circuitry needed to extend the detpic development board functionalities for the subject of Computer Arquitectures II at Deti UA.
 
-The most frequent situation that the students enroled in the subject experience is the circuitry assembly in low quality bread boards, usally poorly mounted and disorganised. The transportation inside the backpacks usally causes faulty connections, sometimes hard to debug.
+The most frequent situation that the students enrolled in the subject experience is the circuitry assembly in low quality bread boards, usually poorly mounted and disorganized. The transportation inside the backpacks usually causes faulty connections, sometimes hard to debug.
 
 The shield provides a robust solution, easy to transport, user friendly and fault proof.
 
-> __The existence of this pcb doesn't implie that the students shouldn't prototype the circuitry in the bread board at least once. It is important that the student understands the schematic and be able to assembly the circuit autonomously.__
+There are also cases for some of the PCBs that you can 3D print and use! Check inside the PCB folder for the `./cases` directory.
+
+> __The existence of this pcb doesn't imply that the students shouldn't prototype the circuitry in the bread board at least once. It is important that the student understands the schematic and be able to assembly the circuit autonomously.__
 
 ## Customize
 
@@ -19,33 +21,33 @@ Most likely you will have to change the PCB, since you might not have some of th
 
 This is an open source project, so feel free to change the board to your preferences, e.g. add more LEDs, put your name in the PCB, change the components to your needs, etc.
 
-Every PCB in this repo has a README that can be found in the root directory of the respective project folder. This document has usefull information that should be read if you plan to modify it.
+Every PCB in this repo has a README that can be found in the root directory of the respective project folder. This document has useful information that should be read if you plan to modify it.
 
 ## Order
 
 Before you order, print the gerber in a sheet of paper and test fit with your components. Boards might have errors or incompatibilities.
 
-The sugested PCB prototype manufacturer is [JLCPCB](https://jlcpcb.com/). It is cheap, less that 10€ for 5 PCBs (< 100x100mm), and you can order it with other students. We have used it before and the quality is ok. Feel free to DIY.
+The suggested PCB prototype manufacturer is [JLCPCB](https://jlcpcb.com/). It is cheap, less that 10€ for 5 PCBs (< 100x100mm), and you can order it with other students. We have used it before and the quality is ok. Feel free to DIY.
 
 To order you just need to upload the gerber files and follow the instructions in the respective manufacturer website. The gerber files can be found in the gerber folder inside the board project directory.
 
 ## Boards
 
-| Name  | Descripion | Tested |
-| ------------- | ------------- |------------- |
-| [__20182019-TH-V1.1__](https://github.com/dvcorreia/ac2-detpic-shield/tree/master/hardware/20182019-TH)  |  1st version of the throught hole 2019's board | :red_circle:
+| Name                                                                                                    | Descripion                                   | Tested       |
+|---------------------------------------------------------------------------------------------------------|----------------------------------------------|--------------|
+| [__20182019-TH-V1.1__](https://github.com/dvcorreia/ac2-detpic-shield/tree/master/hardware/20182019-TH) | 1st version of the through hole 2019's board | :red_circle: |
 
 ## Issues
 
-Any issue or question can be reported here on Github on the [issues](https://github.com/dvcorreia/ac2-detpic-shield/issues) tab. Remember to describe the problem clearly, write the process so we can emulate the problem. Printscreens might be usefull to.
-We will try to anwser you as fast as possible.
+Any issue or question can be reported here on Github on the [issues](https://github.com/dvcorreia/ac2-detpic-shield/issues) tab. Remember to describe the problem clearly, write the process so we can emulate the problem. Print-screens might be useful to.
+We will try to answer you as fast as possible.
 
 ## Contributing
 
 Feel free to contribute your version of the PCB! Others might enjoy it and would like to use it.
 
 To do so, open a [pull request](https://help.github.com/en/articles/about-pull-requests). Make sure to follow the organization structure
-already implemented. Don't forget to add a README with usefull information. Check the one in _20182019-TH_ project directory has an example.
+already implemented. Don't forget to add a README with useful information. Check the one in _20182019-TH_ project directory has an example.
 
 ## License & Copyright
 
