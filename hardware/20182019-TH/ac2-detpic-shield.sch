@@ -136,7 +136,7 @@ Text Label 1450 2850 0    50   ~ 10
 RD1
 Text Label 1450 2950 0    50   ~ 10
 RD0
-Text Label 1450 3150 0    50   ~ 10
+Text Label 1550 3150 0    50   ~ 10
 RD10
 Text Label 1600 3250 0    50   ~ 10
 RD9
@@ -1087,17 +1087,6 @@ F 3 "~" H 1750 2250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:Conn_01x07_Male J3
-U 1 1 5C9D88C9
-P 1750 2850
-F 0 "J3" H 1650 2850 50  0000 R CNN
-F 1 "HEADER" V 1700 3000 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 1750 2850 50  0001 C CNN
-F 3 "~" H 1750 2850 50  0001 C CNN
-	1    1750 2850
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector:Conn_01x02_Male J4
 U 1 1 5C9DA65B
 P 1750 3450
@@ -1122,8 +1111,6 @@ Wire Wire Line
 	1550 2950 1450 2950
 Wire Wire Line
 	1550 3050 1450 3050
-Wire Wire Line
-	1550 3150 1450 3150
 Wire Wire Line
 	1550 3350 1450 3350
 Wire Wire Line
@@ -1185,4 +1172,53 @@ Wire Wire Line
 	2700 3450 2600 3450
 Wire Wire Line
 	2700 3550 2600 3550
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5CE0C159
+P 3450 7150
+F 0 "TP1" H 3508 7268 50  0000 L CNN
+F 1 "Test Point GND" H 3508 7177 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_2.5x2.5mm" H 3650 7150 50  0001 C CNN
+F 3 "~" H 3650 7150 50  0001 C CNN
+	1    3450 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5CE0CF54
+P 3450 7350
+F 0 "#PWR04" H 3450 7100 50  0001 C CNN
+F 1 "GND" H 3455 7177 50  0000 C CNN
+F 2 "" H 3450 7350 50  0001 C CNN
+F 3 "" H 3450 7350 50  0001 C CNN
+	1    3450 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 7150 3450 7350
+Wire Notes Line
+	3300 6850 4200 6850
+Wire Notes Line
+	4200 6850 4200 7600
+Wire Notes Line
+	4200 7600 3300 7600
+Wire Notes Line
+	3300 7600 3300 6850
+Text Notes 3850 6950 0    50   ~ 10
+GND TP
+Text Notes 10570 7640 0    50   ~ 10
+v1.1 May 2019
+$Comp
+L Connector:Conn_01x06_Male J3
+U 1 1 5CF092BF
+P 1750 2850
+F 0 "J3" H 1650 2800 50  0000 R CNN
+F 1 "HEADER" V 1700 2950 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 1750 2850 50  0001 C CNN
+F 3 "~" H 1750 2850 50  0001 C CNN
+	1    1750 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 3150 1750 3150
 $EndSCHEMATC
