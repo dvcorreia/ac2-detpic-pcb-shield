@@ -325,19 +325,19 @@ Wire Wire Line
 	3750 1400 3450 1400
 Wire Wire Line
 	3750 1500 3450 1500
-Text Label 3450 900  0    50   ~ 10
+Text Label 3600 900  2    50   ~ 10
 RB8
-Text Label 3450 1000 0    50   ~ 10
+Text Label 3600 1000 2    50   ~ 10
 RB9
-Text Label 3450 1100 0    50   ~ 10
+Text Label 3600 1100 2    50   ~ 10
 RB10
-Text Label 3450 1200 0    50   ~ 10
+Text Label 3600 1200 2    50   ~ 10
 RB11
-Text Label 3450 1300 0    50   ~ 10
+Text Label 3600 1300 2    50   ~ 10
 RB12
-Text Label 3450 1400 0    50   ~ 10
+Text Label 3600 1400 2    50   ~ 10
 RB13
-Text Label 3450 1500 0    50   ~ 10
+Text Label 3600 1500 2    50   ~ 10
 RB14
 $Comp
 L ac2-detpic-shield:LTD-4708JR U2
@@ -378,10 +378,6 @@ Wire Wire Line
 	4050 900  4800 900 
 Wire Wire Line
 	4800 900  4800 1550
-Wire Wire Line
-	3750 1900 3450 1900
-Text Label 3450 1900 0    50   ~ 10
-RB15
 Wire Wire Line
 	4350 2250 4350 2300
 Wire Wire Line
@@ -427,11 +423,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 2600 4300 2600
 Wire Notes Line
-	3300 600  5450 600 
-Wire Notes Line
-	5450 600  5450 3400
-Wire Notes Line
-	5450 3400 3300 3400
+	5550 600  5550 3400
 Wire Notes Line
 	3300 3400 3300 600 
 Text Notes 4800 700  0    50   ~ 10
@@ -621,7 +613,7 @@ U 1 1 5C9EE737
 P 2500 7050
 F 0 "RV1" H 2430 7096 50  0000 R CNN
 F 1 "10k" H 2430 7005 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_ACP_CA14V-15_Vertical" H 2500 7050 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical" H 2500 7050 50  0001 C CNN
 F 3 "~" H 2500 7050 50  0001 C CNN
 	1    2500 7050
 	1    0    0    -1  
@@ -720,7 +712,7 @@ $Comp
 L Device:R R14
 U 1 1 5CA1D1A8
 P 3900 900
-F 0 "R14" V 3850 1100 50  0000 C CNN
+F 0 "R14" V 3850 700 50  0000 C CNN
 F 1 "330" V 3900 900 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 900 50  0001 C CNN
 F 3 "~" H 3900 900 50  0001 C CNN
@@ -731,7 +723,7 @@ $Comp
 L Device:R R15
 U 1 1 5CA1F029
 P 3900 1000
-F 0 "R15" V 3850 1200 50  0000 C CNN
+F 0 "R15" V 3850 800 50  0000 C CNN
 F 1 "330" V 3900 1000 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 1000 50  0001 C CNN
 F 3 "~" H 3900 1000 50  0001 C CNN
@@ -742,7 +734,7 @@ $Comp
 L Device:R R16
 U 1 1 5CA25E86
 P 3900 1100
-F 0 "R16" V 3850 1300 50  0000 C CNN
+F 0 "R16" V 3850 900 50  0000 C CNN
 F 1 "330" V 3900 1100 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 1100 50  0001 C CNN
 F 3 "~" H 3900 1100 50  0001 C CNN
@@ -753,7 +745,7 @@ $Comp
 L Device:R R17
 U 1 1 5CA2CC58
 P 3900 1200
-F 0 "R17" V 3850 1400 50  0000 C CNN
+F 0 "R17" V 3850 1000 50  0000 C CNN
 F 1 "330" V 3900 1200 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 1200 50  0001 C CNN
 F 3 "~" H 3900 1200 50  0001 C CNN
@@ -764,7 +756,7 @@ $Comp
 L Device:R R18
 U 1 1 5CA33A2A
 P 3900 1300
-F 0 "R18" V 3850 1500 50  0000 C CNN
+F 0 "R18" V 3850 1100 50  0000 C CNN
 F 1 "330" V 3900 1300 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 1300 50  0001 C CNN
 F 3 "~" H 3900 1300 50  0001 C CNN
@@ -775,7 +767,7 @@ $Comp
 L Device:R R19
 U 1 1 5CA41AE3
 P 3900 1400
-F 0 "R19" V 3850 1600 50  0000 C CNN
+F 0 "R19" V 3850 1200 50  0000 C CNN
 F 1 "330" V 3900 1400 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 1400 50  0001 C CNN
 F 3 "~" H 3900 1400 50  0001 C CNN
@@ -786,7 +778,7 @@ $Comp
 L Device:R R20
 U 1 1 5CA488AB
 P 3900 1500
-F 0 "R20" V 3850 1700 50  0000 C CNN
+F 0 "R20" V 3850 1300 50  0000 C CNN
 F 1 "330" V 3900 1500 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 1500 50  0001 C CNN
 F 3 "~" H 3900 1500 50  0001 C CNN
@@ -839,17 +831,6 @@ F 3 "~" H 4800 2600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 3000 4550 3000
-$Comp
-L Device:R R21
-U 1 1 5CA72E7A
-P 3900 1900
-F 0 "R21" V 3800 1900 50  0000 C CNN
-F 1 "330" V 3900 1900 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 1900 50  0001 C CNN
-F 3 "~" H 3900 1900 50  0001 C CNN
-	1    3900 1900
-	0    1    1    0   
-$EndComp
 $Comp
 L Memory_EEPROM:25LCxxx U1
 U 1 1 5C985584
@@ -1221,4 +1202,181 @@ F 3 "~" H 1750 2850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1450 3150 1750 3150
+$Comp
+L Display_Character:KCSA02-107 U4
+U 1 1 5E60EA09
+P 6100 1200
+F 0 "U4" V 6500 1450 50  0000 C CNN
+F 1 "KCSA02-107" V 6400 1450 50  0000 C CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 6100 600 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-107(Ver.10A).pdf" H 5600 1675 50  0001 L CNN
+	1    6100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:KCSA02-107 U5
+U 1 1 5E63DD93
+P 6100 2400
+F 0 "U5" V 6500 2650 50  0000 C CNN
+F 1 "KCSA02-107" V 6400 2650 50  0000 C CNN
+F 2 "Display_7Segment:7SegmentLED_LTS6760_LTS6780" H 6100 1800 50  0001 C CNN
+F 3 "http://www.kingbright.com/attachments/file/psearch/000/00/00/KCSA02-107(Ver.10A).pdf" H 5600 2875 50  0001 L CNN
+	1    6100 2400
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6600 600  6600 3400
+Wire Notes Line
+	3300 600  6600 600 
+Wire Notes Line
+	3300 3400 6600 3400
+Text Notes 5800 3300 0    50   Italic 0
+Support for dual \nsingle 7seg\ndisplays
+Text Label 4100 1500 0    50   ~ 0
+7G
+Text Label 4100 1400 0    50   ~ 0
+7F
+Text Label 4100 1300 0    50   ~ 0
+7E
+Text Label 4100 1200 0    50   ~ 0
+7D
+Text Label 4100 1100 0    50   ~ 0
+7C
+Text Label 4100 1000 0    50   ~ 0
+7B
+Text Label 4100 900  0    50   ~ 0
+7A
+Wire Wire Line
+	3750 1900 3450 1900
+Text Label 3450 1900 0    50   ~ 10
+RB15
+$Comp
+L Device:R R21
+U 1 1 5CA72E7A
+P 3900 1900
+F 0 "R21" V 3800 1900 50  0000 C CNN
+F 1 "330" V 3900 1900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3830 1900 50  0001 C CNN
+F 3 "~" H 3900 1900 50  0001 C CNN
+	1    3900 1900
+	0    1    1    0   
+$EndComp
+Text Label 4050 1900 3    50   ~ 0
+7DP
+Text Label 4150 2300 0    50   ~ 0
+7C1
+Text Label 4700 2300 0    50   ~ 0
+7C2
+Wire Wire Line
+	5800 1000 5650 1000
+Wire Wire Line
+	5800 900  5650 900 
+Wire Wire Line
+	5800 1100 5650 1100
+Wire Wire Line
+	5800 1200 5650 1200
+Wire Wire Line
+	5800 1300 5650 1300
+Wire Wire Line
+	5800 1400 5650 1400
+Wire Wire Line
+	5800 1500 5650 1500
+Wire Wire Line
+	5800 1600 5650 1600
+Wire Wire Line
+	6400 1500 6500 1500
+Wire Wire Line
+	6500 1500 6500 1600
+Wire Wire Line
+	6400 1600 6500 1600
+Connection ~ 6500 1600
+Wire Wire Line
+	6500 1600 6500 1800
+Wire Wire Line
+	5800 2100 5650 2100
+Wire Wire Line
+	5800 2200 5650 2200
+Wire Wire Line
+	5800 2300 5650 2300
+Wire Wire Line
+	5800 2400 5650 2400
+Wire Wire Line
+	5800 2500 5650 2500
+Wire Wire Line
+	5800 2600 5650 2600
+Wire Wire Line
+	5800 2700 5650 2700
+Wire Wire Line
+	5750 2800 5650 2800
+Wire Wire Line
+	6400 2700 6500 2700
+Wire Wire Line
+	6500 2700 6500 2800
+Wire Wire Line
+	6400 2800 6500 2800
+Connection ~ 6500 2800
+Wire Wire Line
+	6500 2800 6500 3000
+Text Label 5650 900  0    50   ~ 0
+7A
+Text Label 5650 1000 0    50   ~ 0
+7B
+Text Label 5650 1100 0    50   ~ 0
+7C
+Text Label 5650 1200 0    50   ~ 0
+7D
+Text Label 5650 1300 0    50   ~ 0
+7E
+Text Label 5650 1400 0    50   ~ 0
+7F
+Text Label 5650 1500 0    50   ~ 0
+7G
+Text Label 5650 1600 0    50   ~ 0
+7DP
+Text Label 6500 1800 1    50   ~ 0
+7C1
+Text Label 6500 3000 1    50   ~ 0
+7C2
+$Comp
+L Device:R_POT RV2
+U 1 1 5E854091
+P 4900 7300
+F 0 "RV2" V 4785 7300 50  0000 C CNN
+F 1 "10k" V 4694 7300 50  0000 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal" H 4900 7300 50  0001 C CNN
+F 3 "~" H 4900 7300 50  0001 C CNN
+	1    4900 7300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4900 7150 4900 7000
+Wire Wire Line
+	5050 7300 5200 7300
+Wire Wire Line
+	4750 7300 4600 7300
+Text Label 4900 7100 1    50   ~ 10
+RB4
+$Comp
+L power:GND #PWR05
+U 1 1 5E87CB07
+P 5200 7300
+F 0 "#PWR05" H 5200 7050 50  0001 C CNN
+F 1 "GND" H 5205 7127 50  0000 C CNN
+F 2 "" H 5200 7300 50  0001 C CNN
+F 3 "" H 5200 7300 50  0001 C CNN
+	1    5200 7300
+	0    -1   -1   0   
+$EndComp
+Text Label 4600 7300 2    50   ~ 10
++3.3V
+Wire Notes Line
+	4300 6850 4300 7600
+Wire Notes Line
+	4300 7600 5450 7600
+Wire Notes Line
+	5450 7600 5450 6850
+Wire Notes Line
+	5450 6850 4300 6850
+Text Notes 4350 6975 0    26   ~ 0
+Extra potentiometer\nfor rotary option
 $EndSCHEMATC
