@@ -1343,7 +1343,7 @@ U 1 1 5E854091
 P 4900 7300
 F 0 "RV2" V 4785 7300 50  0000 C CNN
 F 1 "10k" V 4694 7300 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_T-16H_Single_Horizontal" H 4900 7300 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal" H 4900 7300 50  0001 C CNN
 F 3 "~" H 4900 7300 50  0001 C CNN
 	1    4900 7300
 	0    -1   -1   0   
