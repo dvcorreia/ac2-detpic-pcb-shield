@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name ac2-detpic-shield)(type Legacy)(uri ${KIPRJMOD}/ac2-detpic-shield.lib)(options "")(descr ""))
+  (lib (name PIC32MX795F512H-80V_PT)(type Legacy)(uri ${KIPRJMOD}/footprints/PIC32MX795F512H-80V_PT/PIC32MX795F512H-80V_PT.lib)(options "")(descr ""))
+  (lib (name MM232R)(type Legacy)(uri ${KIPRJMOD}/footprints/MM232R/MM232R.lib)(options "")(descr ""))
 )
