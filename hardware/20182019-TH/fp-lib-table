@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name LTD-4708JR)(type KiCad)(uri ${KIPRJMOD}/footprints/LTD-4708JR.pretty)(options "")(descr ""))
+  (lib (name MM232R)(type KiCad)(uri ${KIPRJMOD}/footprints/MM232R)(options "")(descr ""))
+  (lib (name PIC32MX795F512H-80V_PT)(type KiCad)(uri ${KIPRJMOD}/footprints/PIC32MX795F512H-80V_PT)(options "")(descr ""))
 )
